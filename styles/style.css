@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+body {
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+p {
+    font-size: 13px;
+}
+}
+
+.coantainer {
+
+    width: 1000px;
+    margin: auto;
+
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+}
+
+.manu-bar {
+    display: flex;
+
+}
+
+.nav-bar {
+    display: flex;
+
+    text-transform: capitalize;
+    width: 60%;
+}
+
+.nav-bar h5 {
+    margin: 40px 10px;
+}
+
+.login {
+    display: flex;
+    background-color: #E02C6D;
+    width: 90px;
+    height: 30px;
+    margin: 50px;
+
+}
+
+.login h4 {
+    font-size: 15px;
+}
+
+.login img {
+    margin-top: 18px;
+    width: 20px;
+    height: 20px;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner-text {
+    width: 300px;
+
+
+}
+
+.banner-img {
+    width: 50%;
+
+}
+
+.banner-img img {
+    width: 400px;
+    height: 350px;
+
+}
+
+.watch-button {
+    background-color: #E02C6D;
+    width: 140px;
+    height: 30px;
+    padding: 1px;
+    margin-top: 20px;
+}
+
+.watch-button h4 {
+    font-size: 14px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100px;
+}
+
+.player {
+    box-shadow: 5px 5px 30px gray;
+    margin: 25px;
+    padding: 10px;
+}
+
+.player:hover {
+    border: 3px solid skyblue;
+}
+
+.player-img img {
+    height: 250px;
+    width: 300px;
+
+}
+
+.match {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    margin: 40px;
+}
+
+.match-img {
+    width: 50%;
+}
+
+.match-img img {
+    width: 400px;
+    height: 300px;
+}
+
+.match-text {
+    width: 300px;
+    margin: 50px;
+}
+
+.match-text h1 {
+    text-transform: capitalize;
+}
+
+footer {
+    margin: auto;
+}
+
+.footer-item {}
+
+.footer-item img {
+    width: 300px;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+@media only screen and (max-width:688px) {
+    .nav-bar {
+        display: none;
+    }
+
+    .login {
+        text-align: right;
+    }
+
+    .banner {
+        display: grid;
+        grid-template-columns: repeat(2 1fr);
+    }
+
+    .players {
+        display: grid;
+        grid-template-columns: repeat(1 1fr);
+    }
+
+    .match {
+        display: grid;
+        grid-template-columns: repeat(1 1fr);
+    }
+}
